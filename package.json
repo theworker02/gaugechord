@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/gaugechord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gauge validation gates for chord inputs before they hit prod.",
+  "bin": {
+    "gaugechord": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/gaugechord.git"
+  },
+  "homepage": "https://theworker02.github.io/gaugechord/",
+  "keywords": [
+    "gauge",
+    "chord",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
